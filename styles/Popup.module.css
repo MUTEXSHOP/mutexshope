@@ -1,0 +1,240 @@
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+
+
+.popup {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff2f;
+  z-index:3;
+}
+
+.popup::before {
+  position: absolute;
+  top: 0;
+  right: 1em;
+  padding: 1em;
+  background-color: #000;
+  border-radius: 5px;
+  margin: 1em;
+  content: 'X';
+  font-weight: bold;
+  z-index: 2;
+
+}
+
+.box {
+  background-color: #000;
+  height: 800px;
+  max-height: 90vh;
+  width: 650px;
+  max-width: 95vw;
+  display: block;
+  border-radius: 5px;
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+  overflow-y: auto;
+
+}
+
+.box h3 {
+  margin: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+}
+
+.product {
+  padding: .6em;
+  color: black;
+  background-image: linear-gradient(34deg, #03CEA4, #785bbd);
+  border-radius: 5px;
+  margin: .3em;
+  width: 290px;
+}
+
+.product h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.product_info {
+  display: grid;
+  grid-template-columns: auto 6em;
+}
+
+.product_info span {
+  display: block;
+  padding: 0 1em;
+  margin: .5em 0;
+  border-left: 5px solid black;
+  border-radius: 5px;
+}
+
+.product_info button {
+  background-color: #000;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: .5em;
+  transition-duration: .2s;
+}
+
+.product_info button:hover {
+  background-color: #191919;
+  box-shadow: 0px 0px 5px #0000002f;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 80%;
+}
+
+.inner_prd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.customer_info {
+  max-width: 90%;
+  width: 300px;
+  margin: 0 auto;
+  height: 90%;
+}
+
+.customer_info *:not(li):not(span) {
+  display: block;
+  margin: 1em auto;
+}
+
+.amount spam {
+  display: inline-block !important;
+}
+
+.customer_info input, .customer_info button, .customer_info select {
+  width: 100%;
+  display: block;
+  margin: 1em 0;
+  background-color: #000;
+  border: 2px solid #03cea4;
+  color: white;
+  border-radius: 5px;
+  padding: 1em;
+  text-align: center;
+  transition-duration: .2s;
+}
+
+.customer_info select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer
+}
+
+.customer_info button:hover {
+  color: black;
+  background-color: #03cea4;
+}
+
+.amount {
+  /*https://stackoverflow.com/questions/6900124/how-to-make-certain-text-not-selectable-with-css#6900392*/
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+.numvalue {
+  background-color: #000;
+  color: white;
+  border: 0;
+  width: 2em;
+  text-align: center;
+}
+/*https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp*/
+
+/* Chrome, Safari, Edge, Opera */
+.numvalue::-webkit-outer-spin-button,
+.numvalue::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.numvalue[type=number] {
+  -moz-appearance: textfield;
+}
+
+.numvalue:focus {
+  outline: none;
+}
+
+.ic {
+  color: #dedede;
+  cursor: pointer !important;
+  padding: .2em;
+}
+
+.icprice {
+  float: right;
+}
+
+.cashapp_qr_code {
+  border-radius: 15px;
+}
+
+.customer_info ol {
+  color: white;
+  width: 250px;
+  padding: 0;
+}
+
+.customer_info ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+  display: list-item !important;
+  font-weight: bold;
+  color: white;
+}
+
+.customer_info ol li span {
+  font-weight: normal;
+  color: #dedede
+}
