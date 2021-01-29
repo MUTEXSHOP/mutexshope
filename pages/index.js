@@ -124,7 +124,7 @@ export default function Home({ data }) {
 
 Home.getInitialProps = async ctx => {
   try {
-    return await (await fetch('http://localhost:3000/api/products')).json();
+    return await (await fetch('https://mutexshope.vercel.app/api/products')).json();
   } catch {
     return { error: 'Contact the shop owner as soon as possible' }
   }
