@@ -5,7 +5,17 @@ import Selly from '../../utils/selly'
 let r = null;
 
 const cat = {
-  "FOOD GIFTCARDS": [
+    "FOOD ACCOUNTS": [
+        'BWW Blazin\' Rewards',
+        'BurgerFi Gift Cards',
+        'InsomniaCookies Rewards',
+        'Jersey Mike\'s Free Giant Size Sub',
+        'Panera Bread Accounts','Points Firehouse',
+        'Red Robin',
+        'Subways Accounts',
+          ],
+   
+    "FOOD GIFTCARDS": [
 'Abuelos Gift Cards',
 'Arbys Gift Cards',
 'Back Yard Burgers Gift Cards',
@@ -14,8 +24,6 @@ const cat = {
 'Boston Market Gift Cards',
 'Brixx Wood Fired Pizza Gift Card',
 'Broken Yolk Cafe GC',
-'BurgerFi Gift Cards',
-'BWW Blazin\' Rewards',
 'Captain D\'s Gift Cards',
 'Chevy\'s Gift Cards',
 'City BBQ Gift Cards',
@@ -29,7 +37,6 @@ const cat = {
 'Donatos Gift Cards',
 'Dunkin\' Donuts Gift Cards',
 'Embers Restaurant & Trio Bistro GCS',
-'Points Firehouse',
 'First Watch Cafe Gift Card ',
 'Forever Yogurt GC',
 'Frisch\'s Big Boy Gift Cards',
@@ -40,11 +47,9 @@ const cat = {
 'Hello Fresh OFF',
 'HelloFresh OFF discount code',
 'Hooter\'s Gift Card',
-'InsomniaCookies Rewards',
 'Jamba Juice Gift Cards',
 'Jamba, Auntie Annes, and more',
 'Jason\'s Deli Gift Card',
-'Jersey Mike\'s Free Giant Size Sub',
 'Jimmy John\'s',
 'Johnny Rockets Gift Cards',
 'Jollibee Gift Cards',
@@ -59,7 +64,6 @@ const cat = {
 'Norms Gift Cards',
 'Nothing Bundt Cakes GC',
 'Old Country Buffet Gift Cards',
-'Panera Bread Accounts',
 'Pei Wei Gift Cards',
 'Penn Station Gift Cards',
 'Piada Italian Gift Cards',
@@ -68,7 +72,6 @@ const cat = {
 'Potbelly Gift Cards',
 'Pressed Juicery GC Accounts',
 'Quiznos Gift Card',
-'Red Robin',
 'Robeks Gift Cards',
 'Rocky Mountain Chocolate Gift Card',
 'Roundtable Pizza Gift Cards',
@@ -78,7 +81,6 @@ const cat = {
 'Shoney\'s Gift Cards',
 'Souplantation & ST Gift Cards',
 'Starbucks Gift Cards',
-'Subways Accounts',
 'Tacobell Gift Card',
 'Tcby Yogurt Gift Cards',
 'TGI Friday\'s Points Account',
