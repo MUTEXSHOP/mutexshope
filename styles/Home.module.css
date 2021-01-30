@@ -1,16 +1,6 @@
-.logo {
-  display: block;
-  margin: 0 auto;
-}
-
 .title {
-  color: white;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  margin: 0;
-  padding: 4em 0;
-  background-color: #071013;
+  margin: 1em auto;
+  display: block;
 }
 
 .search {
