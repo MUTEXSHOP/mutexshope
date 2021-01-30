@@ -54,10 +54,9 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <menu onClick={_ => setOpen(!open)}>{open ? 'CLOSE' : 'MENU'}</menu>
-
-      <header>
-      <img class={styles.logo} src="https://i.imgur.com/Ya8tiTA.png">
-      </header>
+<header>
+        <img className={styles.title} src="https://i.imgur.com/Ya8tiTA.png%22%3E</img>
+</header>
 
       <nav style={open ? {height: '100vh', position: 'fixed'} : {}}>
         {Object.keys(refs).map((_, i) => {
