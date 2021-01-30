@@ -51,15 +51,16 @@
 }
 
 .category {
-  cursor: pointer;
-  margin: 1em;
-  background-image: linear-gradient(34deg, #03CEA4, #785bbd);
-  width: 290px;
-  min-height: 120px;
-  max-width: 90vw;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px #0000001f;
-  overflow: hidden;
+cursor: pointer;
+    margin: 3em;
+    background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
+    background-image: linear-gradient(
+34deg
+,#03cea4,#785bbd);
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
+    overflow: hidden;
 }
 
 .img {
