@@ -8,6 +8,7 @@ const cat = {
     "FOOD ACCOUNTS": [
         'BWW Blazin\' Rewards',
         'BurgerFi Gift Cards',
+        'CFA Rewards',
         'InsomniaCookies Rewards',
         'Jersey Mike\'s Free Giant Size Sub',
         'Panera Bread Accounts','Points Firehouse',
