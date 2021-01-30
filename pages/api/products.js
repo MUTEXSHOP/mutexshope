@@ -169,11 +169,7 @@ const getRessy = async () => {
       }
     }
     
-    if(!added) {
-      if(!categories['OTHERS'][realname]) categories['OTHERS'][realname] = [];
-      categories['OTHERS'][realname].push(product);
-    }
-  }
+  
 
   r = categories;
   return r;
