@@ -81,3 +81,7 @@ nav h3:hover {
     display: none;
   }
 }
+
+.logo {
+  text-align: center !important;
+}
