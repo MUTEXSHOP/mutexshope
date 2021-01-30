@@ -69,6 +69,7 @@
   border-radius: 5px;
   background-color: #000100;
   background-size: cover;
+  background-position: center;
 }
 
 .category h4 {
