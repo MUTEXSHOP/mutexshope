@@ -56,7 +56,7 @@ export default function Home({ data }) {
       <menu onClick={_ => setOpen(!open)}>{open ? 'CLOSE' : 'MENU'}</menu>
 
       <header>
-        <h1 className={styles.title}>ShopCS</h1>
+        <h1 className={styles.title}><img src="https://i.imgur.com/Ya8tiTA.png"></h1>
       </header>
 
       <nav style={open ? {height: '100vh', position: 'fixed'} : {}}>
