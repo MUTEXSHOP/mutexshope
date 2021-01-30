@@ -116,6 +116,7 @@ const cat = {
     'Roadrunner Sports Gift Cards',
     'Shoe Carnival Gift Cards',
     'Shoe Show',
+    'Top Golf',
     'UNTUCKit Gift Card',
     'Vera Bradley Gift Cards',
  ],
