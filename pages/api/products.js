@@ -97,7 +97,7 @@ const cat = {
     'Amtrak Rewards',
     'AutoZone Rewards',
     'Bath & Body Works Rewards Account',
-    'Carters/OshKosh Reward',
+    'CartersOshKosh Reward',
     'GAP Rewards','Justice Rewards',
     'KmartSears Rewards',
     'Office Depot',
