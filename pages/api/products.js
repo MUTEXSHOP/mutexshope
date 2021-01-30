@@ -99,7 +99,7 @@ const cat = {
     'Bath & Body Works Rewards Account',
     'Carters/OshKosh Reward',
     'GAP Rewards','Justice Rewards',
-    'Kmart/Sears Rewards',
+    'KmartSears Rewards',
     'Office Depot',
     'Sally Beauty Supply Rewards Free Item',
     'The Body Shop Rewards',
