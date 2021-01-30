@@ -68,7 +68,7 @@ const cat = {
 'Potbelly Gift Cards',
 'Pressed Juicery GC Accounts',
 'Quiznos Gift Card',
-'Red Robins',
+'Red Robin',
 'Robeks Gift Cards',
 'Rocky Mountain Chocolate Gift Card',
 'Roundtable Pizza Gift Cards',
