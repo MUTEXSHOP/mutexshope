@@ -118,6 +118,8 @@ const cat = {
 'Cobb / CinéBistro Theaters',
 'DirectTv',
 'Dish America\'s',
+'Dish Flex',
+'Dish Welcome',
 'iPic Theaters Gift Cards',
 'NBA League Pass',
 'NBA TV',
