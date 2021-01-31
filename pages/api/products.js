@@ -97,6 +97,8 @@ const cat = {
     'Abercrombie Rewards Cash',
     'Adidas OFF Code',
     'Advance Auto',
+    'AMC Stubs',
+    'AMC Theaters',
     'Amtrak Rewards',
     'AutoZone Rewards',
     'Bath & Body Works Rewards Account',
@@ -123,8 +125,6 @@ const cat = {
  ],
 
   "STREAMING / ENTERTAINMENT": [
-'AMC Stubs',
-'AMC Theaters',
 'AT&T TV NOW Go Big & HBO',
 'Cobb / CinéBistro Theaters',
 'DirectTv',
