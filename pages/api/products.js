@@ -176,7 +176,8 @@ const getRessy = async () => {
       const c = cat[key].find(_ => _.replace('\'', '').toLowerCase().includes(realname.toLowerCase()))
       if(c) {
         if(!categories[key][realname]) categories[key][realname] = [];
-        categories[key][realname].push(product);
+        if(!categories[key][realname].includes(product))
+            categories[key][realname].push(product);
         added = 1;
         break;
       }
