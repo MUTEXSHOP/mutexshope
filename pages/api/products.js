@@ -146,7 +146,7 @@ const cat = {
 
 const limiter = rateLimit({
   interval: 60 * 1000,
-  uniqueTokenPerInterval: 300
+  uniqueTokenPerInterval: 10
 })
 
 const getRessy = async () => {
