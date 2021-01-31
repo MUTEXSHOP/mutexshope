@@ -48,7 +48,7 @@ export default function Home({ data }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ShopCS</title>
+        <title>CornerStore | Find all you need</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <menu onClick={_ => setOpen(!open)}>{open ? 'CLOSE' : 'MENU'}</menu>
