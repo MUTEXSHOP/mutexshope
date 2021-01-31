@@ -6,8 +6,6 @@ import AOS from 'aos'
 import styles from '../styles/Home.module.css'
 import "aos/dist/aos.css"
 
-
-
 export default function Home({ data }) {
 
   const [query, setQuery] = useState("");
