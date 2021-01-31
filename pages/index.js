@@ -39,8 +39,8 @@ export default function Home({ data }) {
   }
   
   if(typeof window !== 'undefined') {
-    if(data) window.localStorage.set('data', JSON.stringify(data))
-    else data = window.localStorage.get('data') || null
+    if(data) window.localStorage.setItem('data', JSON.stringify(data))
+    else data = JSON.parse(window.localStorage.getItem('data') || "{}")
   }
 
   const trans = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACvCAQAAACWCnycAAAAEElEQVR42mNkYGAcRaMIjAC2hQCwhGuphQAAAABJRU5ErkJggg==';
