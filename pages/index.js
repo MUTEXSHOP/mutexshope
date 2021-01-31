@@ -72,8 +72,8 @@ export default function Home({ data }) {
 
       <main className={styles.main}>
         <div className={styles.categories}>
-          {data ? Object.keys(data).reverse().map((_, i) => {
-            const prod = Object.keys(data[_]).sort((a,b)=>a>b)
+          {data ? Object.keys(data).map((_, i) => {
+            const prod = Object.keys(data[_]).sort((a,b)=>a.title>b.title)
               .filter(
                   (a) => query
                   ? a.toLowerCase().includes(query)
