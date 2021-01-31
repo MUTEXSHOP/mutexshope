@@ -4,6 +4,7 @@ import Selly from '../../utils/selly'
 
 let r = null;
 
+
 const cat = {
     "FOOD ACCOUNTS": [
         'BWW Blazin\' Rewards',
@@ -15,7 +16,7 @@ const cat = {
         'Red Robin',
         'Subways Accounts',
           ],
-   
+
     "FOOD GIFTCARDS": [
 'Abuelos Gift Cards',
 'Arbys Gift Cards',
@@ -136,7 +137,9 @@ const cat = {
 'NBA TV',
 'NFL Sunday Ticket MAX',
 'Pandora',
-  ]
+  ],
+
+  'OTHERS': [] // leave empty
 }
 
 const limiter = rateLimit({
@@ -147,7 +150,11 @@ const limiter = rateLimit({
 const getRessy = async () => {
   if(r) return r;
   const res = (await (await fetch('http://45.90.109.181/products.json')).json());
-  let categories = {OTHERS:{}};
+  let categories = {};
+
+  for(const key in cat) {
+    categories[key] = {};
+  }
 
   for(const product of res) {
     let added = 0;
@@ -156,20 +163,24 @@ const getRessy = async () => {
       .split(/\s(-|\d|\[|\$|\()/g)[0]
       .split(' ')
 
-    realname = realname.slice(0, 2 + (realname[1] === '&')).join(' ');
+    realname = realname.slice(0, 2
+      + (['&', 'of'].includes(realname[1]))
+      - (realname[0] === 'Dish')
+    ).join(' ');
+
+
 
     for(const key in cat) {
       const c = cat[key].find(_ => _.replace('\'', '').toLowerCase().includes(realname.toLowerCase()))
       if(c) {
-        if(!categories[key]) categories[key] = {};
         if(!categories[key][realname]) categories[key][realname] = [];
         categories[key][realname].push(product);
         added = 1;
         break;
       }
     }
-    
-   if(!added) {
+
+    if(!added) {
       if(!categories['OTHERS'][realname]) categories['OTHERS'][realname] = [];
       categories['OTHERS'][realname].push(product);
     }
