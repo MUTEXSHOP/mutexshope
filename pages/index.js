@@ -37,6 +37,11 @@ export default function Home({ data }) {
       interval: interval || popup.interval
     });
   }
+  
+  if(typeof window !== 'undefined') {
+    if(data) window.localStorage.set('data', JSON.stringify(data))
+    else data = window.localStorage.get('data') || null
+  }
 
   const trans = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACvCAQAAACWCnycAAAAEElEQVR42mNkYGAcRaMIjAC2hQCwhGuphQAAAABJRU5ErkJggg==';
 
