@@ -15,6 +15,8 @@ const cat = {
         'Panera Bread Accounts','Points Firehouse',
         'Red Robin',
         'Subways Accounts',
+        'Smoothie King',
+        'Sonic Accounts',
           ],
 
     "FOOD GIFTCARDS": [
