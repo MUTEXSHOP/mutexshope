@@ -185,7 +185,7 @@ const getRessy = async () => {
     if(!added) {
       if(!categories['OTHERS'][realname]) categories['OTHERS'][realname] = [];
       if(!categories['OTHERS'][realname].includes(product))
-      categories['OTHERS'][realname].push(product);
+        categories['OTHERS'][realname].push(product);
     }
   }
 
