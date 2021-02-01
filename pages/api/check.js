@@ -4,7 +4,7 @@ import param from '../../utils/param'
 
 const limiter = rateLimit({
   interval: 60 * 1000,
-  uniqueTokenPerInterval: 300
+  uniqueTokenPerInterval: 500
 })
 
 export default async (req, res) => {
