@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+.catmap h1 {
+  color: white;
+}
+
 .category {
   margin: 1em;
   background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
