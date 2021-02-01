@@ -146,7 +146,7 @@ const cat = {
 
 const limiter = rateLimit({
   interval: 60 * 1000,
-  uniqueTokenPerInterval: 10
+  uniqueTokenPerInterval: 600
 })
 
 const getRessy = async () => {
@@ -196,7 +196,7 @@ const getRessy = async () => {
 
 export default async (req,res) => {
 
-  if(await limiter.check(res, 40, 'CACHE_TOKEN'))
+  if(await limiter.check(res, 10, 'CACHE_TOKEN'))
     return res.status(429).json({error: 'Slow down cowboy.'})
 
   try {
