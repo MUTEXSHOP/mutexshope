@@ -76,7 +76,7 @@ export default function Home({ data }) {
 
 
       <main className={styles.main}>
-        <div className={styles.categories}>
+        <div>
           {data ? Object.keys(data).map((_, i) => {
             const prod = Object.keys(data[_]).sort((a,b)=>a>b?1:-1)
               .filter(
@@ -88,11 +88,14 @@ export default function Home({ data }) {
               <h1 ref={refs[_]}>{prod.length ? _ : ''}</h1>
               <div className={styles.categories}>
                 {prod.map((a, i) => {
+                  var stock = 0;
                   data[_][a].img = null;
+                 
+                 
                   for(let e = 0; e < data[_][a].length; e++) {
-                    if(data[_][a][e]['img'] !== 'none') {
+                    stock += data[_][a][e]['stock'];
+                    if(data[_][a][e]['img'] !== 'none' && !data[_][a]['img']) {
                       data[_][a]['img'] = data[_][a][e]['img'];
-                      break;
                     }
                   }
 
@@ -109,6 +112,8 @@ export default function Home({ data }) {
                   
                     <div className={styles.img} style={{'backgroundImage': `url(${data[_][a]['img']})`}} />
                       <h4>{a}</h4>
+                      <p>{stock}</p>
+                      <button>BUY</button>
                     </div>
                   )
                 })}
