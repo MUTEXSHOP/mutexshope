@@ -84,7 +84,7 @@ export default function Home({ data }) {
                   ? a.toLowerCase().includes(query)
                   : 1
               )
-            return <div key={i}>
+            return <div key={i} className={styles.catmap}>
               <h1 ref={refs[_]}>{prod.length ? _ : ''}</h1>
               <div className={styles.categories}>
                 {prod.map((a, i) => {
