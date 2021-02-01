@@ -47,13 +47,15 @@
 }
 
 .category {
-margin: 1em;
-background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
-background-image: linear-gradient(34deg,#03cea4,#785bbd);
-width: 290px;
-border-radius: 5px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
-overflow: hidden;
+  margin: 1em;
+  background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
+  background-image: linear-gradient(34deg,#03cea4,#785bbd);
+  width: 290px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  color: black;
+  text-align: center;
 }
 
 .img {
@@ -65,12 +67,15 @@ overflow: hidden;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    color: black;
-    text-align: center;
 }
 
-.img button {
+.category button {
   cursor: pointer;
+  padding: 2em 1em;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  border: 0
 }
 
 .category h4 {
