@@ -72,7 +72,7 @@ export default function PopUp ({ info, update }) {
               <img className={styles.cashapp_qr_code} src={info.transaction.cashapp_qr_code} />
               <ol>
                 <li>
-                  <span>Initiate CashApp payment to $ by manually inputting CashApp tag or scanning the CashApp Tag QR code above</span>
+                  <span>Initiate CashApp payment to $olave1234 by manually inputting CashApp tag or scanning the CashApp Tag QR code above</span>
                 </li>
                 <li>
                   <span>Set payment amount exactly to {info.transaction.cashapp_value} USD</span>
