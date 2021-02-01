@@ -113,7 +113,7 @@ export default function Home({ data }) {
                     <div className={styles.img} style={{'backgroundImage': `url(${data[_][a]['img']})`}} />
                       <h4>{a}</h4>
                       <p>{stock} in stock</p>
-                      <button>BUY</button>
+                      <button>PURCHASE</button>
                     </div>
                   )
                 })}
