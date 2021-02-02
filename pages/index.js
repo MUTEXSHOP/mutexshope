@@ -130,6 +130,7 @@ export default function Home({ data }) {
 }
 
 Home.getInitialProps = async ctx => {
+  if (ctx.req) console.log(ctx.req.headers)
   try {
     return await (await fetch('https://mutexshope.vercel.app/api/products')).json();
   } catch {
