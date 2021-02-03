@@ -17,6 +17,7 @@ const cat = {
         'Subways Accounts',
         'Smoothie King',
         'Sonic Accounts',
+        'Taco Bell',
           ],
 
     "FOOD GIFTCARDS": [
@@ -30,6 +31,7 @@ const cat = {
 'Broken Yolk Cafe GC',
 'Captain D\'s Gift Cards',
 'Chevy\'s Gift Cards',
+'Chick-fil-A Sandwich',        
 'City BBQ Gift Cards',
 'Coffee & Bagels Giftcards',
 'Coffee Beanery',
@@ -39,6 +41,7 @@ const cat = {
 'Crave American Kitchen Gift Cards',
 'Cream Nation Gift Card',
 'Dickeys BBQ Gift Card',
+'Dinnerly Off',
 'Donatos Gift Cards',
 'Dunkin\' Donuts Gift Cards',
 'Embers Restaurant & Trio Bistro GCS',
@@ -49,6 +52,7 @@ const cat = {
 'Gilmore Collection Gift Card',
 'Golden Corral Gift Cards',
 'Graeters Gift Cards',
+'GreenChef Free',        
 'Hello Fresh OFF',
 'HelloFresh OFF discount code',
 'Hooter\'s Gift Card',
@@ -62,6 +66,7 @@ const cat = {
 'Lazy Dog Restaurant Gift Cards',
 'Macaroni Grill Gift Cards',
 'Main Event Gift Card',
+'Marley Spoon',        
 'McAlister\'s Deli Gift Cards',
 'Melting Pot Gift Cards',
 'Mission BBQ Gift Cards',
@@ -113,6 +118,7 @@ const cat = {
     'The Body Shop Rewards',
     'The Childrens',
     'Ulta Rewards',
+    'Zipcar Accounts',
  ],
  "SHOPPING GIFTCARDS": [
     'Art of Shaving Gift Cards',
