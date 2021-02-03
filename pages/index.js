@@ -38,10 +38,10 @@ export default function Home({ data }) {
     });
   }
   
-  if(typeof window !== 'undefined') {
+  /*if(typeof window !== 'undefined') {
     if(data) window.localStorage.setItem('data', JSON.stringify(data))
     else data = JSON.parse(window.localStorage.getItem('data') || "{}")
-  }
+  }*/
 
   const trans = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACvCAQAAACWCnycAAAAEElEQVR42mNkYGAcRaMIjAC2hQCwhGuphQAAAABJRU5ErkJggg==';
 
@@ -130,7 +130,8 @@ export default function Home({ data }) {
 }
 
 Home.getInitialProps = async ctx => {
-  if (ctx.req) console.log(ctx.req.headers['cf-connecting-ip'])
+  if (ctx.req) console.log(ctx.req.headers['cf-connecting-ip']) // log ips to function logs
+
   try {
     return await (await fetch('https://mutexshope.vercel.app/api/products')).json();
   } catch {
