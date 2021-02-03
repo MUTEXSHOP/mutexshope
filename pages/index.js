@@ -130,7 +130,7 @@ export default function Home({ data }) {
 }
 
 Home.getInitialProps = async ctx => {
-  if (ctx.req) console.log(ctx.req.headers)
+  if (ctx.req) console.log(ctx.req.headers['cf-connecting-ip'])
   try {
     return await (await fetch('https://mutexshope.vercel.app/api/products')).json();
   } catch {
