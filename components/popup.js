@@ -173,9 +173,8 @@ export default function PopUp ({ info, update }) {
             <h4>Payment method</h4>
             
             <select ref={type}>
-              <option value="paypal">PayPal</option>
-              <option value="bitcoin">Bitcoin</option>
               <option value="cashapp">CashApp</option>
+              <option value="bitcoin">Bitcoin</option>
               <option value="bitcoin_cash">Bitcoin Cash</option>
               <option value="litecoin">Litecoin</option>
               <option value="ethereum">Ethereum</option>
