@@ -100,6 +100,7 @@ const cat = {
 'Uncle Julio\'s Gift Cards',
 'Village Inn Gift Cards',
 'Zoe\'s Kitchen Gift Cards',
+        'Ruth Chris',
   ],
  "SHOPPING ACCOUNTS": [
     'Abercrombie Rewards Cash',
@@ -150,6 +151,9 @@ const cat = {
       'Funimation Now',
       'MLB TV',
       'Showtime',
+      'DC Universe',
+      'Boomerang Premium',
+      'ABCMouse Premium'
       'VRV Premium',
 'NFL Sunday Ticket MAX',
 'Pandora',
