@@ -124,6 +124,7 @@ const cat = {
     'Art of Shaving Gift Cards',
     'Cobb CinéBistro',
     'Dick\'s Sporting Goods Reward',
+    'Fandango CC',
     'Nyx Beauty Gift Card',
     'Roadrunner Sports Gift Cards',
     'Shoe Carnival Gift Cards',
