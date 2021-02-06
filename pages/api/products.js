@@ -95,12 +95,12 @@ const cat = {
 'Tcby Yogurt Gift Cards',
 'TGI Friday\'s Points Account',
 'The Counter',
+        'Ruth Chris',
 'Tijuana Flats Gift Card',
 'Tom Chee Gift Cards',
 'Uncle Julio\'s Gift Cards',
 'Village Inn Gift Cards',
 'Zoe\'s Kitchen Gift Cards',
-        'Ruth Chris',
   ],
  "SHOPPING ACCOUNTS": [
     'Abercrombie Rewards Cash',
@@ -153,7 +153,7 @@ const cat = {
       'Showtime',
       'DC Universe',
       'Boomerang Premium',
-      'ABCMouse Premium'
+      'ABCMouse Premium',
       'VRV Premium',
 'NFL Sunday Ticket MAX',
 'Pandora',
