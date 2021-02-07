@@ -157,7 +157,7 @@ export default function PopUp ({ info, update }) {
         <div className={styles.inner}>
           <div className={styles.customer_info}>
             <h4>{info.product.title}</h4>
-            <p>{info.product.description}</p>
+            <pre>{info.product.description}</pre>
 
             {error ? <h4>{error}</h4> : ''}
 
