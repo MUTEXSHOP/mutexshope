@@ -145,6 +145,7 @@ const cat = {
 'Fandango CC',
 'NBA League Pass',
 'NBA TV',
+      'HBO Max',
      'CBS All',
       'Crunchyroll',
       'Disney & Hulu',
