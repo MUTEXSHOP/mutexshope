@@ -156,8 +156,8 @@ export default function PopUp ({ info, update }) {
         <h3>{info.product.title}</h3>
         <div className={styles.inner}>
           <div className={styles.customer_info}>
-            <h4>Beware</h4>
-            <p>Any products bought on this website will be sent directly to your email. If the email provided is not valid, you may not receive your products.</p>
+            <h4>{info.product.title}</h4>
+            <pre>{info.product.description}</pre>
 
             {error ? <h4>{error}</h4> : ''}
 
