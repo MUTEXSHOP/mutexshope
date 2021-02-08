@@ -145,6 +145,7 @@ const cat = {
 'Dish Welcome',
 'NBA League Pass',
 'NBA TV',
+      'Skillshare Premium',
       'HBO Max',
      'CBS All',
       'Crunchyroll',
