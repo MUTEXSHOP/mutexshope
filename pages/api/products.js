@@ -170,7 +170,6 @@ const limiter = rateLimit({
 })
 
 const getRessy = async () => {
-  if(r) return r;
   const res = (await (await fetch('http://45.90.109.181/products.json')).json());
   let categories = {};
 
