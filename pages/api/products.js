@@ -110,6 +110,7 @@ const cat = {
     'AMC Theaters',
     'Amtrak Rewards',
     'AutoZone Rewards',
+     'Dicks Sporting',
      'Fandango Accounts',
     'Bath & Body Works Rewards Account',
     'CartersOshKosh Reward',
@@ -125,7 +126,6 @@ const cat = {
  "SHOPPING GIFTCARDS": [
     'Art of Shaving Gift Cards',
     'Cobb CinéBistro',
-    'Dick\'s Sporting Goods Reward',
     'Nyx Beauty Gift Card',
     'Roadrunner Sports Gift Cards',
     'Shoe Carnival Gift Cards',
