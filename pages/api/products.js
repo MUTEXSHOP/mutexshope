@@ -4,11 +4,7 @@ import Selly from '../../utils/selly'
 
 let r = null;
 
-const cat = {    
-     "FEATURED PRODUCTS": [
-      'Factor[Free Boxes]',
-          ],
-    
+const cat = {        
     "FOOD ACCOUNTS": [
         'BWW Blazin\' Rewards',
         'BurgerFi Gift Cards',
@@ -25,6 +21,7 @@ const cat = {
 
     "FOOD GIFTCARDS": [
 'Abuelos Gift Cards',
+'Factor[Free Boxes]',
 'Factor[Free Boxes]',
 'Arbys Gift Cards',
 'Back Yard Burgers Gift Cards',
