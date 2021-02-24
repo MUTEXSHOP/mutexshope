@@ -130,7 +130,7 @@ export default function PopUp ({ info, update }) {
         <div className={styles.box}>
           <h3>Here's your order</h3>
             <div className={styles.inner}>
-              <div className={styles.customer_info}>
+              <div className={styles.customer_info2}>
                 <pre>{txinfo.delivered}</pre>
               </div>
             </div>
@@ -156,7 +156,6 @@ export default function PopUp ({ info, update }) {
         <h3>{info.product.title}</h3>
         <div className={styles.inner}>
           <div className={styles.customer_info}>
-            <h4>{info.product.title}</h4>
             <pre>{info.product.description}</pre>
 
             {error ? <h4>{error}</h4> : ''}

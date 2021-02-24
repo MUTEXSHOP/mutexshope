@@ -52,13 +52,19 @@ export default function Home({ data }) {
 
   return (
     <div className={styles.container}>
-      <Head>
+      <head>
         <title>CornerStore | Find all you need</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/scroll.css" />
+    </head>
       <menu onClick={_ => setOpen(!open)}>{open ? 'CLOSE' : 'MENU'}</menu>
 <header>
         <img className={styles.title} src="https://i.imgur.com/Ya8tiTA.png"></img>
+<div className={styles.navg}>
+          <a href="https://t.me/CornerStoreSupport" target="_blank"><i class="fa fa-question-circle"></i> Support</a>   
+          <a href="https://t.me/cornerstoreshop" target="_blank"><i class="fa fa-plus-circle"></i> Updates</a>
+        </div>
 </header>
 
       <nav style={open ? {height: '100vh', position: 'fixed'} : {}}>

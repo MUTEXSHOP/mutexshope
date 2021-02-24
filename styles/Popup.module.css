@@ -29,6 +29,28 @@
   background-color: #ffffff2f;
   z-index:3;
 }
+.Popup .box {
+    background-color: #242424;
+    height: 800px;
+    max-height: 90vh;
+    width: 650px;
+    max-width: 95vw;
+    display: block;
+    border-radius: 5px;
+    -webkit-animation: Popup_anvil__1RvcJ .3s cubic-bezier(.38,.1,.36,.9) forwards;
+    overflow-y: auto;
+}
+.Popup box {
+    background-color: #242424;
+    height: 800px;
+    max-height: 90vh;
+    width: 650px;
+    max-width: 95vw;
+    display: block;
+    border-radius: 5px;
+    -webkit-animation: Popup_anvil__1RvcJ .3s cubic-bezier(.38,.1,.36,.9) forwards;
+    overflow-y: auto;
+}
 
 .popup pre {
   white-space: pre-wrap;       /* Since CSS 2.1 */
@@ -36,6 +58,9 @@
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: pre-wrap;
+    background: #1b1b1b;
+    padding: 15px 15px 15px 15px;
 }
 
 .popup::before {
@@ -53,7 +78,7 @@
 }
 
 .box {
-  background-color: #000;
+  background-color: #242424;
   height: 800px;
   max-height: 90vh;
   width: 650px;
@@ -62,8 +87,8 @@
   border-radius: 5px;
   -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
   overflow-y: auto;
-
 }
+
 
 .box h3 {
   margin: 0;
@@ -73,7 +98,7 @@
   text-align: center;
   position: sticky;
   top: 0;
-  background-color: #000;
+  background-color: #242424;
 }
 
 .product {
@@ -125,6 +150,7 @@
   justify-content: center;
   flex-wrap: wrap;
   min-height: 80%;
+  background-color: #242424;
 }
 
 .inner_prd {
@@ -132,14 +158,27 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #242424;
 }
 
 
 .customer_info {
-  max-width: 90%;
-  width: 300px;
-  margin: 0 auto;
-  height: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 75%;
+    height: 90%;
+    word-break: break-word;
+    padding: 1em;
+}
+
+.customer_info2 {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 75%;
+    height: 90%;
+    background: #1b1b1b !important;
+    word-break: break-word;
+    padding: 1em;
 }
 
 .customer_info *:not(li):not(span) {
@@ -155,13 +194,16 @@
   width: 100%;
   display: block;
   margin: 1em 0;
-  background-color: #000;
+  background-color: #1b1b1b;
   border: 2px solid #03cea4;
   color: white;
   border-radius: 5px;
   padding: 1em;
   text-align: center;
   transition-duration: .2s;
+}
+.customer_info button, {
+  cursor: pointer;
 }
 
 .customer_info select {
@@ -246,3 +288,4 @@
   font-weight: normal;
   color: #dedede
 }
+

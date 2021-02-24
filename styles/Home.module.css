@@ -1,3 +1,34 @@
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+
+.navg a {
+display: block;
+    cursor: pointer;
+    padding: .5em;
+    background: #191919;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .title {
   max-width: 100%;
   margin: 1em auto;
@@ -56,13 +87,13 @@
 }
 
 .category {
-  margin: 1em;
-  background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
-  background-image: linear-gradient(34deg,#03cea4,#785bbd);
-  width: 290px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
-  overflow: hidden;
+    margin: 1em;
+    background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
+    background-image: linear-gradient(34deg,#03cea4,#785bbd);
+    width: 290px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
+    overflow: hidden;
 }
 
 .img {
@@ -78,11 +109,13 @@
 
 .category button {
   cursor: pointer;
-  padding: 2em 1em;
-  width: 100%;
-  background-color: #000;
-  color: white;
-  border: 0
+    padding: 1.5em 1em;
+    width: 50%;
+    background-color: #242424;
+    color: #fff;
+    border: 1px solid #379aaf;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .categories h1 {
