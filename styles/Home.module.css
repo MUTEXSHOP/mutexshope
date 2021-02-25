@@ -87,10 +87,10 @@ display: block;
 }
 
 .category {
-    margin: 1em;
+    margin: 3em;
     background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
     background-image: linear-gradient(34deg,#03cea4,#785bbd);
-    width: 290px;
+    width: 250px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(0 0 0 / 12%);
     overflow: hidden;
