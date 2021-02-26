@@ -126,7 +126,6 @@ color: #04cca4;
     color: #fff;
     -moz-transition: .25s;
     transition: .25s;
-    transform: skewX(-10deg);
     border: 1px solid #000;
     cursor: pointer;
 }
