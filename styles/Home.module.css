@@ -83,7 +83,15 @@ display: block;
 }
 
 .catmap h1 {
-  color: white;
+color: #04cca4;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.ctitle {
+  width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 .category {
@@ -97,25 +105,47 @@ display: block;
 }
 
 .img {
-    height: 175px;
-    width: 98%;
-    margin: 1%;
+    height: 150px;
+    margin: 2% 2% 0% 2%;
     border-radius: 5px;
-    background-color: #ffffff !important;
+    background-color: #fff!important;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
+    border: 1px;
+    border-style: solid;
+    border-color: #242424a8;
 }
 
 .category button {
-  cursor: pointer;
-    padding: 1.5em 1em;
-    width: 50%;
-    background-color: #242424;
-    color: #fff;
-    border: 1px solid #379aaf;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    background: #242424;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: .5em;
+    padding: 1em 2em;
+    color: #ffffff;
+    -moz-transition: .25s;
+    transition: .25s;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.category button:hover, .category button:focus {
+    border-color: #242424;
+    color: #242424;
+}
+
+.slide:hover {
+ box-shadow: inset 9em 0 0 0 #0bc6a6;
+}
+.slide:focus{
+box-shadow: inset 9em 0 0 0 #0bc6a6;
+}
+
+.slide {
+  --color: #8fc866;
+  --hover: #66c887;
 }
 
 .categories h1 {
@@ -124,4 +154,12 @@ display: block;
   background-color: #191919;
   text-align: center;
   z-index: 1;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: #FF3A20; 
 }

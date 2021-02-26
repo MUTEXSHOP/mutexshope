@@ -91,7 +91,7 @@ export default function Home({ data }) {
                   : 1
               )
             return <div key={i} className={styles.catmap}>
-              <h1 ref={refs[_]}>{prod.length ? _ : ''}</h1>
+             <div className={styles.ctitle}>  <h1 ref={refs[_]}>{prod.length ? _ : ''}</h1></div>
               <div className={styles.categories}>
                 {prod.map((a, i) => {
                   var stock = 0;
@@ -118,8 +118,8 @@ export default function Home({ data }) {
                   
                     <div className={styles.img} style={{'backgroundImage': `url(${data[_][a]['img']})`}} />
                       <h4>{a}</h4>
-                      <p>{stock} in stock</p>
-                      <button>PURCHASE</button>
+                       <p>{stock} in stock</p>
+                      <button className={styles.slide}>PURCHASE</button>
                     </div>
                   )
                 })}
