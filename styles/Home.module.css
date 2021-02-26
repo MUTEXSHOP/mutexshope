@@ -118,16 +118,18 @@ color: #04cca4;
 }
 
 .category button {
-    background: #242424;
-    border: 2px solid;
+background: #242424;
     font: inherit;
     line-height: 1;
     margin: .5em;
     padding: 1em 2em;
-    color: #ffffff;
+    color: #fff;
     -moz-transition: .25s;
     transition: .25s;
-    border: 1px solid black;
+    transform: skewX(
+-10deg
+);
+    border: 1px solid #000;
     cursor: pointer;
 }
 
