@@ -95,7 +95,7 @@ color: #04cca4;
 }
 
 .category {
-    margin: 2em;
+    margin: 1em;
     background-image: -moz-linear-gradient(56deg,#03cea4,#785bbd);
     background-image: linear-gradient(34deg,#03cea4,#785bbd);
     width: 250px;
