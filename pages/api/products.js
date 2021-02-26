@@ -14,6 +14,7 @@ const cat = {
         'Panera Bread Accounts','Points Firehouse',
         'Red Robin',
         'Krispy Kreme',
+        'Landrys Rewards',
         'Subways Accounts',
         'Smoothie King',
         'Sonic Accounts',
