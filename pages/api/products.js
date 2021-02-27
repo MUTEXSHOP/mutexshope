@@ -13,6 +13,7 @@ const cat = {
         'Jersey Mike\'s Free Giant Size Sub',
         'Panera Bread Accounts','Points Firehouse',
         'Red Robin',
+        'McDonalds Accounts',
         'Krispy Kreme',
         'Landrys Rewards',
         'Subways Accounts',
