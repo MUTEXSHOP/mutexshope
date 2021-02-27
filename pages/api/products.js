@@ -11,7 +11,7 @@ const cat = {
         'CFA Rewards',
         'InsomniaCookies Rewards',
         'Jersey Mike\'s Free Giant Size Sub',
-        'Panera Bread Accounts','Points Firehouse',
+        'Panera Bread Accounts','Firehouse Points',
         'Red Robin',
         'McDonalds Accounts',
         'Krispy Kreme',
