@@ -100,7 +100,7 @@ const cat = {
 'Tcby Yogurt Gift Cards',
 'The Counter',
         'Ruth Chris',
-        'Steak n Shake',
+        'Steak n Shake\',
 'Tijuana Flats Gift Card',
 'Tom Chee Gift Cards',
 'Uncle Julio\'s Gift Cards',
