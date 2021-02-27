@@ -7,7 +7,6 @@ let r = null;
 const cat = {        
     "FOOD ACCOUNTS": [
         'BWW Blazin\' Rewards',
-        'BurgerFi GiftCards',
         'CFA Rewards',
         'InsomniaCookies Rewards',
         'Jersey Mike\'s Free Giant Size Sub',
@@ -27,6 +26,7 @@ const cat = {
 'Abuelos Gift Cards',
 'Factor[Free Boxes]',
 'Factor[Free Boxes]',
+        'BurgerFi Giftcards',
 'Arbys Gift Cards',
 'Back Yard Burgers Gift Cards',
 'Blaze Pizza Gift Cards',
