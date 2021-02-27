@@ -148,7 +148,7 @@ const cat = {
 'Dish America\'s',
 'Dish Flex',
 'Dish Welcome',
-'NBA',
+'NBA TV',
       'NBA League',
       'Skillshare Premium',
       'HBO Max',
