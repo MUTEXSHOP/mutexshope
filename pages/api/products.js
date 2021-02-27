@@ -149,6 +149,7 @@ const cat = {
 'Dish Flex',
 'Dish Welcome',
 'NBA',
+      'NBA League',
       'Skillshare Premium',
       'HBO Max',
      'CBS All',
