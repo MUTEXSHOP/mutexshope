@@ -93,7 +93,7 @@ const cat = {
 'Shane\'s Rib Shack Gift Card',
 'Shoney\'s Gift Cards',
 'Souplantation & ST Gift Cards',
-'Starbucks Gift Card',
+'Starbucks GiftCards',
 'Tacobell Gift Card',
 'Tcby Yogurt Gift Cards',
 'TGI Friday\'s Points Account',
