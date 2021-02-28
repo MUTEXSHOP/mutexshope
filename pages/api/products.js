@@ -62,7 +62,7 @@ const cat = {
 'HelloFresh OFF discount code',
 'Hooter\'s Gift Card',
 'Jamba Juice Gift Cards',
-'Jamba, Auntie Annes, and more',
+'MIX-IT-UP',
 'Jason\'s Deli Gift Card',
 'Jimmy John\'s',
 'Johnny Rockets Gift Cards',
