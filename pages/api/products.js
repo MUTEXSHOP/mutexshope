@@ -46,7 +46,7 @@ const cat = {
 'Coffee Beanery',
 'Country Kitchen Gift Cards',
 'Cracker Barrel Gift Card',
-'Pressed Juicery Giftcard',
+'Pressed Juicery. Giftcard',
 'Craftworks Gift Cards ',
 'Crave American Kitchen Gift Cards',
 'Cream Nation Gift Card',
