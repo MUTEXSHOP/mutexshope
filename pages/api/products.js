@@ -166,6 +166,9 @@ const cat = {
       'VRV Premium',
 'NFL Sunday Ticket MAX',
 'Pandora',
+      'FunimationNow Premium',
+      'Hulu Premium',
+      'NordVPN Accounts',
   ],
 
   'OTHERS': [] // leave empty
