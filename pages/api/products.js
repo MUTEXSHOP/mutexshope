@@ -17,6 +17,7 @@ const cat = {
         'Landrys Rewards',
         'Subways Accounts',
         'Smoothie King',
+        'Krispy Kreme',
         'TGI Fridays',
         'Sonic Accounts',
         'Taco Bell',
