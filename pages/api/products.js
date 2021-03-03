@@ -90,7 +90,6 @@ const cat = {
 'Penn Station Gift Cards',
 'Piada Italian Gift Cards',
 'Pinkberry Gift Card',
-'Pizza Hut Code',
 'Potbelly Gift Cards',
 'Quiznos Gift Card',
 'Robeks Gift Cards',
