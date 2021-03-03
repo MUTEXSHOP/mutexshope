@@ -22,6 +22,7 @@ const cat = {
         'Krispy Kreme',
         'TGI Fridays',
         'Sonic Accounts',
+        'Olive Garden',
         'Taco Bell',
           ],
 
