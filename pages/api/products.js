@@ -24,6 +24,7 @@ const cat = {
         'Sonic Accounts',
         'Olive Garden',
         'Taco Bell',
+        'Pizza Hut',
           ],
 
     "FOOD GIFTCARDS": [
