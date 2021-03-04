@@ -144,6 +144,7 @@ const cat = {
     'Top Golf',
     'UNTUCKit Gift Card',
     'Vera Bradley Gift Cards',
+     'Massage Envy',
  ],
 
   "STREAMING / ENTERTAINMENT": [
