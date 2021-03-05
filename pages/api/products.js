@@ -30,6 +30,7 @@ const cat = {
     "FOOD GIFTCARDS": [
 'Abuelos Gift Cards',
         'Mellow Mushroom',
+        'Smashburger Gift',
 'Factor[Free Boxes]',
 'Factor[Free Boxes]',
         'BurgerFi Giftcards',
