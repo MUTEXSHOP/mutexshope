@@ -159,6 +159,7 @@ const cat = {
       'Skillshare Premium',
       'HBO Max',
      'CBS All',
+      'Paramount +',
       'Crunchyroll',
       'Disney & Hulu',
       'Funimation Now',
