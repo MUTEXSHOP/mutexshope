@@ -165,6 +165,7 @@ const cat = {
       'Crunchyroll',
       'Disney & Hulu',
       'Funimation Now',
+      'CrunchyRoll Premium',
       'MLB TV',
       'Showtime',
       'DC Universe',
