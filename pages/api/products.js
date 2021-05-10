@@ -8,6 +8,7 @@ const cat = {
     "FOOD ACCOUNTS": [
         'BWW Blazin\' Rewards',
         'Landry\'s Rewards',
+        'BlueApron',
         'CFA Rewards',
         'InsomniaCookies Rewards',
         'Pressed Juicery GC Accounts',
