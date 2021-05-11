@@ -11,6 +11,7 @@ const cat = {
         'BlueApron',
         'CFA Rewards',
         'InsomniaCookies Rewards',
+        'Maurices',
         'Pressed Juicery GC Accounts',
         'Jersey Mike\'s Free Giant Size Sub',
         'Panera Bread Accounts','Firehouse Points',
