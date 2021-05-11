@@ -121,6 +121,7 @@ const cat = {
     'Advance Auto',
     'AMC Stubs',
     'AMC Theaters',
+     'Bloomingdales',
     'Amtrak Rewards',
     'AutoZone Rewards',
      'Dicks Sporting',
