@@ -44,6 +44,7 @@ const cat = {
 'Boston Market Gift Cards',
 'Brixx Wood Fired Pizza Gift Card',
 'Broken Yolk Cafe GC',
+        'Pollo Tropical',
 'Captain D\'s Gift Cards',
 'Chevy\'s Gift Cards',
 'Chick-fil-A Sandwich',        
