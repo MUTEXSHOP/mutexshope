@@ -28,6 +28,7 @@ const cat = {
         'Olive Garden',
         'Taco Bell',
         'Pizza Hut',
+        'Wendy\'s',
           ],
 
     "FOOD GIFTCARDS": [
